@@ -1,10 +1,8 @@
 package Service;
 
-import domain.Building;
-
 public interface SoongsilBreak { //1
     void init();
     void creatBuilding();
     //void menu();
-    //void cost();
+    //void quit();
 }
