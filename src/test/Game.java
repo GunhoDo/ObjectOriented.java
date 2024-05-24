@@ -5,7 +5,7 @@ import Service.SoongsilBreakImpl;
 
 public class Game {
     public static void main(String[] args) {
-        SoongsilBreak soongsilBreak = new SoongsilBreakImpl();
+            SoongsilBreak soongsilBreak = new SoongsilBreakImpl();
         soongsilBreak.creatBuilding();
         soongsilBreak.init();
     }

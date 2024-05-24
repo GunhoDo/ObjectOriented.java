@@ -1,7 +1,10 @@
 package domain;
 
+import java.io.StringReader;
+
 public class Building {
     boolean clear;
+    private String name;
     private int HP;//건물의 HP 0은 부순 것을 의미
 
     private int cost; //들어올때 감소되는 피로도
@@ -12,7 +15,8 @@ public class Building {
     private int INT;
     private int Luk;
 
-    public Building(int HP, int cost, int str, int dex, int INT, int luk) {
+    public Building(String name ,int HP, int cost, int str, int dex, int INT, int luk) {
+        this.name = name;
         this.HP = HP;
         this.cost = cost;
         Str = str;
@@ -26,6 +30,9 @@ public class Building {
 
     public void setClear(boolean clear) {
         this.clear = clear;
+    }
+    public String getName() {
+        return name;
     }
     public int getHP() {
         return HP;
@@ -50,6 +57,4 @@ public class Building {
     public int getLuk() {
         return Luk;
     }
-
-
 }
