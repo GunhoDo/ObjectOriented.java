@@ -1,8 +1,9 @@
 package Service;
 
 public interface SoongsilBreak { //1
-    void init();
-    void creatBuilding();
-    //void menu();
-    //void quit();
+    void creatEnvironment();
+    int menu(Character ch);
+    void characterActivity(int n, Character ch);
+    void enterBuilding(Character ch);
+    void clearGame(int day);
 }
