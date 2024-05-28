@@ -13,6 +13,7 @@ public interface Building {
     static void showClear()
     {
         Iterator<Building> iter = buildings.iterator();
+        System.out.print("남은 건물 : ");
         while(iter.hasNext()) {
             System.out.print(iter.next().getClass().getSimpleName()+" ");
         }
