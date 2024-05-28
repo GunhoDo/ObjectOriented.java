@@ -1,7 +1,5 @@
 package Major;
 
-import Major.Character;
-
 public class CharacterImpl implements Character {
     public static int day = 1;
     protected String name;

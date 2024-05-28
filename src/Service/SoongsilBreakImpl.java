@@ -8,7 +8,6 @@ import House.Building;
 import House.미래관;
 import House.정보관;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class SoongsilBreakImpl implements SoongsilBreak {

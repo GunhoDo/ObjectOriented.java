@@ -1,7 +1,5 @@
 package Major;
 
-import Major.CharacterImpl;
-
 public class IT extends CharacterImpl {
     public IT(){
         this.cost = 20;

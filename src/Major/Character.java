@@ -1,7 +1,5 @@
 package Major;
 
-import java.util.Hashtable;
-
 public interface Character {
     String getName();
     void setName(String name);
