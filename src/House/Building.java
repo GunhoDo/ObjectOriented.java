@@ -1,4 +1,4 @@
-package domain;
+package House;
 
 import java.util.HashSet;
 import java.util.Iterator;

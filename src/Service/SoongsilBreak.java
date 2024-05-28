@@ -1,9 +1,13 @@
 package Service;
 
+import Major.Character;
+
 public interface SoongsilBreak { //1
-    void creatEnvironment();
+    Character creatEnvironment();
     int menu(Character ch);
     void characterActivity(int n, Character ch);
     void enterBuilding(Character ch);
-    void clearGame(int day);
+    void day_by_day(Character ch);
+    void clearGame();
+
 }
