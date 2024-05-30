@@ -13,26 +13,13 @@ public class BuildingImpl implements Building{
     public void revent(){} //하위 클래스에 오버라이드 하세요
     @Override
     public void showState() {
-//        System.out.println("HP = " + HP);
         System.out.println("건물 요구 스탯 : Str = " + Str + ", INT = " + INT + ", Dex = " + Dex + ", Luk = " + Luk);
     }
-
-
-//    private int HP = 10;
-//    private int cost = 10;
-
-
 
     @Override
     public int isOnce() {
         return once;
     }
-    //    public int getHP() {
-//        return HP;
-//    }
-//    public int getCost() {
-//        return cost;
-//    }
     @Override
     public int getStr() {
         return Str;

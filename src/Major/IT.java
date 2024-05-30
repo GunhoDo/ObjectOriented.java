@@ -6,10 +6,10 @@ public class IT extends CharacterImpl {
     }
     @Override
     public void Skill() {
-        if (cost >= 5) {
+        if (MP >= 5) {
             System.out.println("INT 증가 스킬을 사용합니다");
             System.out.println("cost가 5 감소합니다.");
-            cost = cost - 5;
+            MP = MP - 5;
             INT = INT + 10;
         }
         else{

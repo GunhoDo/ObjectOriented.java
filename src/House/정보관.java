@@ -37,16 +37,4 @@ public class 정보관 extends BuildingImpl{
         }
         once = 0;
     }
-
-
-    //이 밑은 필요 없으면 지워라
-//    private int HP = 10;
-//    private int cost = 10;
-
-//    public int getHP() {
-//        return HP;
-//    }
-//    public int getCost() {
-//        return cost;
-//    }
 }

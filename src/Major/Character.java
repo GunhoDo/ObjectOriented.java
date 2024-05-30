@@ -3,8 +3,8 @@ package Major;
 public interface Character {
     String getName();
     void setName(String name);
-    int getCost();
-    void setCost(int cost);
+    int getMP();
+    void setMP(int MP);
     int getStr();
     void setStr(int str);
     int getDex();
@@ -13,9 +13,13 @@ public interface Character {
     void setInt(int Int);
     int getLuk();
     void setLuk(int luk);
-    void study();
     void showState();
     void Skill();
     void rSkill();
+    void act1();
+    void act2();
+    void act3();
+    void act4();
+    void act5();
 
 }
