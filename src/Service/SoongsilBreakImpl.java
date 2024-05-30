@@ -16,6 +16,10 @@ public class SoongsilBreakImpl implements SoongsilBreak {
         Building.buildings.add(new 정보관());
         Building.buildings.add(new 미래관());
     }
+    public static SoongsilBreak getSoongsilBreak()
+    {
+        return new SoongsilBreakImpl();
+    }
 
     public static int main_menu(){
         Scanner sc = new Scanner(System.in);
