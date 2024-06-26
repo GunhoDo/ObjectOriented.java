@@ -1,24 +1,27 @@
 package Major;
 
 public class IT extends CharacterImpl {
-    public IT(){ //예를들어 IT대생 Dex 110으로 시작
-        Dex += 100;
+    public IT() {
+        Str = 15;
+        Dex = 15;
+        INT = 15;
+        Luk = 15;
     }
     @Override
     public void Skill() {
-        if (MP >= 5) {
-            System.out.println("INT 증가 스킬을 사용합니다");
-            System.out.println("cost가 5 감소합니다.");
-            MP = MP - 5;
-            INT = INT + 10;
+        if (MP >= 10) {
+            System.out.println("난 모든 걸 창조할 수 있어(MP = 10 사용)");
+            System.out.println("IT대생은 만능이기 때문에 모든 스탯이 일시적으로 20 증가합니다.");
+            MP -= 10;
+            Str += 20;
+            Dex += 20;
+            INT += 20;
+            Luk += 20;
+            super.showState();
+            MP += 1;
         }
         else{
-            System.out.println("코스트가 부족해서 스킬 사용이 불가합니다.");
-            System.out.println("약을 쳐 먹고 cost를 늘리세요");
+            System.out.println("마나가 부족해서 스킬 사용이 불가합니다(휴식을 통해 MP를 회복하세요)");
         }
-    }
-    @Override
-    public void rSkill() {
-        INT -= 10;
     }
 }

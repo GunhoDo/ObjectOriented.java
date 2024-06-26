@@ -15,7 +15,6 @@ public interface Character {
     void setLuk(int luk);
     void showState();
     void Skill();
-    void rSkill();
     void act1();
     void act2();
     void act3();
