@@ -13,6 +13,7 @@ public class SoongsilBreakImpl implements SoongsilBreak {
         return new SoongsilBreakImpl();
     }
     public static void mainMenu(){
+      
         Scanner sc = new Scanner(System.in);
 
         while(true) {
